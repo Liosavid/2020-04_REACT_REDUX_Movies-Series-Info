@@ -1,4 +1,4 @@
-import {SEARCH_MOVIES} from './types'
+import {SEARCH_MOVIE} from './types'
 
 export const searchMovie = text => dispatch => {
 
@@ -6,9 +6,9 @@ export const searchMovie = text => dispatch => {
 type: SEARCH_MOVIE,
 payload: text
 
-    })
+    });
 
 
-}
+};
 
 
