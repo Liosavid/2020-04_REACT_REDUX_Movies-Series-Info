@@ -1,4 +1,4 @@
 module.exports = {
 
-    'APIKey': '998a30cd'
-}
+APIKey: '998a30cd'
+};
