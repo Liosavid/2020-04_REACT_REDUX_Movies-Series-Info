@@ -12,7 +12,7 @@ export class MoviesContainer extends Component {
         ? movies.map((movie, index) => <MovieCard key={index} movie={movie} />)
         : null;
 
-    return <div className="row">{content}</div>;
+    return <div className="row justify-content-center">{content}</div>;
   }
 }
 
