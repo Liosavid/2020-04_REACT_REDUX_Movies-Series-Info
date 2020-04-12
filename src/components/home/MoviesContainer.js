@@ -10,9 +10,7 @@ export class MoviesContainer extends Component {
     content =
       movies.Response === "True"
         ? movies.Search.map((movie, index) => <MovieCard key={index} movie={movie} />)
-        : (<div>
-          No results
-        </div>);
+        : null;
 
     return <div className="row justify-content-center">{content}</div>;
   }
