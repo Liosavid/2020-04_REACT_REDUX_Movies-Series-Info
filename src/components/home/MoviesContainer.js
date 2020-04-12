@@ -8,9 +8,11 @@ export class MoviesContainer extends Component {
     let content = "";
 
     content =
-      movies.length > 0
-        ? movies.map((movie, index) => <MovieCard key={index} movie={movie} />)
-        : null;
+      movies.Response === "True"
+        ? movies.Search.map((movie, index) => <MovieCard key={index} movie={movie} />)
+        : (<div>
+          No results
+        </div>);
 
     return <div className="row justify-content-center">{content}</div>;
   }
