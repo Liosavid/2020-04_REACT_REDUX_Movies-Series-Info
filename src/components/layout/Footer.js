@@ -5,8 +5,8 @@ const Footer = () => {
 
         return(
 
-            <div className="footer container-fluid footer-row">
-            <div className="row ">
+            <div className="footer">
+            <div className="row">
               <div className="col-md-12">
                 <div className="footer p-3 mt-4 text-center bg-dark text-light">
                   Developed by:&nbsp;
