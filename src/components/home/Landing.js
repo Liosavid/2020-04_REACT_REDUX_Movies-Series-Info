@@ -9,6 +9,8 @@ import MoviesContainer from './MoviesContainer';
 
 
 
+
+
 class Landing extends Component {
     render() {
      const {loading} = this.props;
